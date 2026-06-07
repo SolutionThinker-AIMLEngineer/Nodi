@@ -4,6 +4,7 @@ from typing import Dict
 
 app = FastAPI()
 
+#class to manage socket connection between server and clients
 class ConnectionManager:
     def __init__(self):
         # Store connections as {client_id: websocket}
