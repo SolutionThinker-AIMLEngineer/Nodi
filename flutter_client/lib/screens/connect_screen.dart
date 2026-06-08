@@ -12,7 +12,7 @@ class ConnectScreen extends StatefulWidget {
 class _ConnectScreenState extends State<ConnectScreen>
     with SingleTickerProviderStateMixin {
   final _serverController =
-      TextEditingController(text: 'wss://8ng4325g-8000.asse.devtunnels.ms');
+      TextEditingController(text: 'wss://cr9b01fq-8000.inc1.devtunnels.ms/');
   final _clientIdController = TextEditingController();
   bool _isConnecting = false;
   String? _error;
